@@ -3,7 +3,7 @@ import zip from 'lodash.zipobject'
 import HttpsProxyAgent from 'https-proxy-agent'
 import JSONbig from 'json-bigint'
 
-import 'isomorphic-fetch'
+import fetch from 'cross-fetch'
 
 const BASE = 'https://api.binance.com'
 const FUTURES = 'https://fapi.binance.com'
